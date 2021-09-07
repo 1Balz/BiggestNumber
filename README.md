@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BiggestNumber
+public class SmallestNumber
 {
  public static void main(String[]args)
   {
@@ -11,17 +11,17 @@ public class BiggestNumber
     y=s.nextInt();
     System.out.print("enter the third number:");
     z=s.nextInt();
-    if(x>y&&x>z)
+    if(x<y&&x<z)
     {
-      System.out.println("Largest number is:"+x);
+      System.out.println("Smallest number is:"+x);
     }
-    else if(y>x&&y>z)
+    else if(y<x&&y<z)
      {
-      System.out.println("Largest number is:"+y);
+      System.out.println("Smallest number is:"+y);
      }
      else
      {
-      System.out.println("Largest number is:"+z);
+      System.out.println("Smallest number is:"+z);
      }
  
     }
